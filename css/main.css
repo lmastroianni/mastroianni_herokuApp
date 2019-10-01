@@ -1,0 +1,280 @@
+@charset "UTF-8";
+/*CSS Doc*/
+
+.hidden
+{
+	display: none;
+}
+
+#hide
+{
+  display: none;
+}
+
+/*makes responsive*/
+.responsive {
+	max-width: 100%;
+	height: auto;
+  }
+
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #c2b28f;
+}
+
+.container {
+	margin: 0 auto;
+	background-color: #fff;
+	max-width: 1200px;
+  }
+
+  /* -------------------------------------------------------------------*/
+
+header {
+	background: #ff6666;
+	color: #ffffff;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #cfb53b 3px solid;
+}
+
+
+
+body
+{
+	background-color:#ff6666;
+}
+
+#boxes
+{
+	background-color:#ff6666;
+}
+
+
+#title
+{
+	font-size: 45px;
+	font-family: Bangers, cursive;
+	color: #c2b28f;
+	
+	text-align: center;
+	width: 100%;
+}
+
+#boxes h2
+{
+	font-family: Bangers, cursive;
+	color: #cfb53b;
+}
+
+.box1 :hover
+  {
+    transition: all 0.8s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+    transform: scale(1.1);
+  }
+
+  .box2 :hover
+  {
+    transition: all 0.8s cubic-bezier(0.000, 0.000, 0.230, 1);
+    background-position: 0%;
+    transform: scale(1.1);
+  }
+
+/*body*/
+
+#body
+{
+	text-align: center;
+	color: #83b799;
+}
+
+#boxes h2
+{
+	font-size: 45px;
+	text-align: center;
+}
+
+
+
+.heroImage img
+{
+	width: 100%;
+}
+
+.heroImage{
+	background-color: #ff6666;
+}
+
+.heroImage p{
+	text-align:center;
+	font-family: 'Courgette', cursive;
+}
+
+
+
+/*#boxes img
+{
+	width: 80%;
+}*/
+
+
+/*footer*/
+
+#backToTopBut 
+{
+  background-color: #808080;
+  color: #fff;
+  padding-left: 30%;
+  padding-right: 30%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  font-family: 'Averia Serif Libre', cursive;
+  
+}
+
+footerInfo a{
+	width: 100%;
+}
+
+@media screen and (min-width: 540px)  {
+
+	#boxes h2 
+	{
+		font-size: 60px
+	}
+
+	.heroImage p
+	{
+		font-size: 20px;
+	}
+
+	#title
+	{
+		font-size: 60px;
+	}
+	
+
+	
+}
+
+
+@media screen and (min-width: 640px) {
+
+	#boxes 
+	{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.box2 h2
+	{
+		margin-right: 30px;
+	}
+
+	.box1 h2
+	{
+		margin-right: 10px;
+	}
+	
+	.box1{
+		margin-top: 80px;
+	}
+	
+	.box2 h2 
+	{
+		width: 100%;
+	}
+
+
+	#backToTopBut
+	{
+		display: none;
+	}
+
+	#footer
+	{
+		background-color: #cfb53b;
+		margin: 40px;
+	}
+
+	#footer p
+	{ 
+		text-align: center;
+	}
+	
+
+	
+}
+
+
+@media screen and (min-width: 900px)
+{
+	.heroImage img {
+		height:400px;
+		width: 100%;
+	}
+
+	#title
+	{
+		font-size: 80px;
+	}
+
+	.box1{
+		margin-right:300px;
+	}
+
+	#turnTable
+	{
+		height: 300px;
+		width: 300px;
+		margin-top: -170px;
+		padding: 20px
+	
+	}
+
+	#turnTable2
+	{
+		height: 300px;
+		width: 300px;
+		margin-left: 850px;
+		margin-top: -340px;
+		padding: 20px;
+	
+	}
+
+	
+
+	
+	
+}
+
+
+
+.roundShadow
+{
+	{
+		box-shadow: 10px -10px #CCC;
+	  }
+}
+
+
+
+
+/* in class sutff */
+
+
+
+
+/*
+body {
+	background-color: black, color: white}
+}
+
+h1,h2,h3,h4 {color: yellow; }
+*/
