@@ -31,6 +31,7 @@ body{
 	background-color: #fff;
 	max-width: 1200px;
   }
+  
 
   /* -------------------------------------------------------------------*/
 
@@ -135,12 +136,24 @@ body
   padding-bottom: 20px;
   border-radius: 15px;
   font-family: 'Averia Serif Libre', cursive;
+  width: 80%;
   
 }
 
-footerInfo a{
+#footerInfo a{
 	width: 100%;
 }
+
+#footer p
+{
+	display: none;
+}
+
+#footer
+{
+	background-color: #ff6666; 
+}
+
 
 @media screen and (min-width: 540px)  {
 
@@ -157,6 +170,11 @@ footerInfo a{
 	#title
 	{
 		font-size: 60px;
+	}
+
+	#footerText
+	{
+		display: contents;
 	}
 	
 
@@ -200,7 +218,7 @@ footerInfo a{
 	#footer
 	{
 		background-color: #cfb53b;
-		margin: 40px;
+		/*margin: 40px;*/
 	}
 
 	#footer p
@@ -229,8 +247,9 @@ footerInfo a{
 		margin-right:300px;
 	}
 
-	#turnTable
+	.turnTable
 	{
+	    display: contents;
 		height: 300px;
 		width: 300px;
 		margin-top: -170px;
@@ -238,16 +257,39 @@ footerInfo a{
 	
 	}
 
-	#turnTable2
+	#record1
 	{
-		height: 300px;
-		width: 300px;
+		height: 200px;
+		Width: 200px;
+		margin-top: -100px;
+		margin-left: 190px;
+	}
+
+	#record2
+	{
+		height: 200px;
+		Width: 200px;
+		margin-left: 800px;
+		margin-top: -200px;
+	}
+
+	.turnTable2
+	{
+		display: contents;
+		height: 200px;
+		width: 200px;
 		margin-left: 850px;
 		margin-top: -340px;
 		padding: 20px;
+		margin-left: -800px;
 	
 	}
+	
+	/*.box2{
+		margin-top: 78px;
+	}*/
 
+	
 	
 
 	
@@ -255,13 +297,6 @@ footerInfo a{
 }
 
 
-
-.roundShadow
-{
-	{
-		box-shadow: 10px -10px #CCC;
-	  }
-}
 
 
 

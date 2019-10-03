@@ -24,6 +24,7 @@ app.use(express.static('public'));
 // a forward slash is the home route (same as index.html)
 
 app.get('/', (req, res) => {
+ // res.send('hello world!');
   res.sendFile(path.join(__dirname + '/views/index.html'));
 })
 
@@ -34,5 +35,5 @@ app.get('/contact', (req, res) => {
 res.render('home', {message: "hi there!", anothermessage: "This is easy!"});
 
 app.listen(port, () => {
-  console.log(`Server running at $(port)}`);
+  console.log(`Server running at ${port}`);
 });
