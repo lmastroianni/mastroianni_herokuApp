@@ -12,7 +12,7 @@ const port = process.env.PORT || 3000; //a double pipe means "or"
 
 const app = express();
 
-app.use(express.static('public'));
+//app.use(express.static('public'));
 
 // tell express to use hbs  engine to render data
 //app.set('view engine','hbs');
@@ -23,14 +23,14 @@ app.use(express.static('public'));
 
 // a forward slash is the home route (same as index.html)
 
-app.get('/', (req, res) => {
+app.get('/index', (req, res) => {
  // res.send('hello world!');
   res.sendFile(path.join(__dirname + '/index.html'));
 })
 
-app.get('/contact', (req, res) => {
-  res.send('on the contact page');
-})
+//app.get('/contact', (req, res) => {
+  //res.send('on the contact page');
+//})
 
 res.render('home', {message: "hi there!", anothermessage: "This is easy!"});
 
