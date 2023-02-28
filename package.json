@@ -18,6 +18,6 @@
   "homepage": "https://github.com/lmastroianni/productPromo#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "hbs": "^4.0.5"
+    "hbs": "^4.2.0"
   }
 }
